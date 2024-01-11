@@ -1,0 +1,38 @@
+*{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:35px;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(255, 208, 0);
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.text{
+    margin-top: 0%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+#ultimate_one{
+    width: 50vw;
+    height: 75vh;
+    border: 5px solid rgb(255, 187, 0);
+    opacity: 0.8;
+}
+

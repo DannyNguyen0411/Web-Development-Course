@@ -14,52 +14,63 @@ h1 {
   font-size: 5rem;
 }
 
+.creative{
+  color: midnightblue;
+}
+
 footer {
   text-align: right;
   color: midnightblue;
 }
 
-@media (min-width: 680px) {
-  .main{
-    clear: both;
-  }
+.tile-image{
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
 
-  .card-title{
-    float: center;
-  }
-
-  p{
-    display: inline;
-  }
-
-/* left card */
   .left.card{
-    
+    width: 45%;
   }
 
-
-  /* Right card */
   .right.card{
-    background-color: aqua;
+    width: 45%;
+  }
+
+  .left{
+    float: left;
+  }
+
+  .right{
+    float: right;
   }
 
 
-  .tile-image{
-    display: grid;
-    width: 275px;
+@media (max-width: 680px) {
+
+  .logo{
+    width: 100px;
   }
 
-  /* .left.card, img .tile-image
-  {
-    display: flex;
-    background-color: red;
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
   }
 
-  .right.card, img .tile-image
-  {
-    display: block;
-    background-color: blue;
-  } */
+  .card{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    text-align: justify;
+  } 
+
+
+  .card img{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
 
 
   
